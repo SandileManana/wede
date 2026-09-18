@@ -1,0 +1,169 @@
+
+
+.page-banner {
+  background-color: var(--club-red-dark);
+  color: var(--white);
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.page-banner h1 {
+  color: var(--white);
+  font-size: 1.8rem;
+}
+
+/* club history and timeline */
+.club-history {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.club-history p {
+  margin-top: 1rem;
+  color: var(--ink);
+}
+
+.history-timeline {
+  list-style: none;
+  text-align: left;
+  margin-top: 1.5rem;
+  border-left: 3px solid var(--club-red);
+  padding-left: 1.5rem;
+}
+
+.history-timeline li {
+  margin-bottom: 1rem;
+}
+
+.history-timeline strong {
+  color: var(--club-red);
+  font-family: "Oswald", Arial, sans-serif;
+}
+
+
+/* club mission and values*/
+.mission-statement {
+  background-color: #f7f7f5; /* light tint, breaks up the run of plain-white sections */
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.mission-statement > p {
+  max-width: 600px;
+  margin: 0.5rem auto 1.5rem;
+}
+
+.values-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.values-list li {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  padding: 1.5rem;
+}
+
+.values-list h3 {
+  color: var(--club-red);
+  margin-bottom: 0.5rem;
+}
+
+
+/* stadium and the community */
+.stadium,
+.community {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.stadium p,
+.community p {
+  margin-top: 0.75rem;
+  color: var(--ink);
+}
+
+
+/* stadium location */
+.location {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.map-frame {
+  margin-top: 1.5rem;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+
+/* form */
+.enquiry {
+  max-width: 600px;
+  margin: 3rem auto 4rem;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.enquiry-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 1.5rem;
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.enquiry-form label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.enquiry-form input,
+.enquiry-form select,
+.enquiry-form textarea {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 0.95rem;
+}
+
+.enquiry-form input:focus,
+.enquiry-form select:focus,
+.enquiry-form textarea:focus {
+  outline: 2px solid var(--club-red);
+  outline-offset: 1px;
+}
+
+.enquiry-form button {
+  margin-top: 1.5rem;
+  align-self: flex-start;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 700px) {
+  .values-list {
+    grid-template-columns: 1fr;
+  }
+}
