@@ -53,3 +53,35 @@ the css folder contains base.Css,home.css,fixtures.css,news.css,teamprofile.css
 7.images
 -i added more images to improve the visual represantation
 
+## 12. References
+
+The following online resources were used as learning references while developing and improving the Secunda Mighty Stars FC website. The videos were used to understand web development concepts and were not copied directly into the project.
+
+### YouTube References
+
+1. Traversy Media. (2020). *Build a Responsive Website | HTML, CSS Grid, Flexbox & More*. YouTube.
+   Available at: https://www.youtube.com/watch?v=p0bGHP-PXD4
+   Accessed: 18 September 2026.
+
+   Used for: Understanding website structure, navigation bars, CSS Grid, Flexbox, cards, forms, footers and responsive design. The tutorial covers these areas as part of building a responsive website.
+
+2. Learn Web. (2023). CSS Flexbox Responsive Cards – Frontend Simplified. YouTube.
+   Available at: https://www.youtube.com/watch?v=0m5e1V7g8kM
+   Accessed: 18 September 2026.
+
+   Used for: Understanding how to create responsive cards using HTML and CSS. This was relevant to the news cards, player cards and other content sections used on the website.
+
+3. Coder Coder. Responsive 4-Column Layout with CSS Grid – Build a Responsive Website from Scratch. YouTube.
+   Used for: Understanding CSS Grid, responsive layouts, card spacing, images, border-radius and hover effects.
+
+4. EGATOR. How to Create a Responsive Website Using HTML and CSS – Complete Tutorial for Beginners. YouTube.
+   Used for: Understanding multi-page website structure, navigation menus, Google Fonts, CSS variables, media queries and responsive layouts.
+
+5. Brian Design. HTML, CSS, and JavaScript Website Design Tutorial – Beginner Project Fully Responsive. YouTube.
+   Used for: Understanding how to organise a multi-page website, create navigation, hero sections, footers, use Google Fonts and link different HTML pages together.
+
+How the References Were Used
+
+The references were mainly used to improve my understanding of HTML and CSS while developing Part 2 of the project. I used them as learning material to understand concepts such as responsive layouts, navigation, cards, forms, CSS Grid, Flexbox and page structure.
+
+The final Secunda Mighty Stars FC website was developed and adapted for the requirements of my own project. The content, football club information, page structure and design decisions were adjusted for the specific website rather than simply copying a tutorial project.
